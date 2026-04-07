@@ -64,6 +64,21 @@ void mergeSort(int low, int high)
         }
         k++;
     }
+    // Copy remaining elements from the right sub-array
+    while (j <= high)
+    {
+        B[k] = arr[j];
+        j++;
+        k++;
+    }
+
+
+
+
+
+
+
+
 
     
 }
