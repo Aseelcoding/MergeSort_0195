@@ -95,6 +95,16 @@ void mergeSort(int low, int high)
 
     
 }
+
+void output()
+{
+    cout << "\nData after sorting (Merge Sort): " << endl;
+    for (int i = 0; i < n; i++)
+    {
+        cout << arr[i] << " ";
+    }
+    cout << endl;
+}
 int main()
 {
  
